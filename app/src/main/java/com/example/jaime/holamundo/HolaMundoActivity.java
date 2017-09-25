@@ -19,5 +19,6 @@ public class HolaMundoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txvMessage = (TextView) findViewById(R.id.txv_message);
+        txvMessage.setText("¡Vaya paquete de App!");
     }
 }
